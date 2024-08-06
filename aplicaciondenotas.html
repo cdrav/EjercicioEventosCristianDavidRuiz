@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicación de Notas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="notasApp">
+        <h1>Aplicación de Notas</h1>
+
+        <div id="nueva-nota">
+            <h2>Nueva Nota</h2>
+            <input type="text" id="titulo" placeholder="Título">
+            <textarea id="texto" placeholder="Escribe tu nota aquí..."></textarea>
+            <button id="guardar">Guardar</button>
+        </div>
+
+        <div>
+            <input type="text" id="buscar" placeholder="Buscar">
+            <label>
+                <input type="checkbox" id="realizadas"> Realizadas
+            </label>
+        </div>
+
+        <div id="contenedor-notas"></div>
+    </div>
+
+    <script src="./aplicaciondenotas.js"></script>
+</body>
+</html>
